@@ -229,8 +229,8 @@ class About_Intro_Widget extends \Elementor\Widget_Base {
 			'label' => __( 'Color', 'atl-extension' ),
 			'type' => \Elementor\Controls_Manager::COLOR,
 			'scheme' => [
-				'type' => \Elementor\Scheme_Color::get_type(),
-				'value' => \Elementor\Scheme_Color::COLOR_1,
+				'type' => \Elementor\Core\Schemes\Color::get_type(),
+				'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 			],
 			'default' => '#000',
 			'selectors' => [
@@ -245,7 +245,7 @@ class About_Intro_Widget extends \Elementor\Widget_Base {
 		[
 			'name' => 'about_intro_intro_sub_title_typography',
 			'label' => __( 'Typography', 'atl-extension' ),
-			'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+			'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 			'selector' => '{{WRAPPER}} .aboutIntro .display-2--start',
 		]
 	);
@@ -270,8 +270,8 @@ class About_Intro_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#1714e0',
 				'selectors' => [
@@ -286,7 +286,7 @@ class About_Intro_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'about_intro_intro_title_typography',
 				'label' => __( 'Typography', 'atl-extension' ),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .aboutIntro .display-2--intro  ',
 			]
         );
@@ -315,8 +315,8 @@ class About_Intro_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#000',
 				'selectors' => [
@@ -331,7 +331,7 @@ class About_Intro_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'about_intro_intro_desc_typography',
 				'label' => __( 'Typography', 'atl-extension' ),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .aboutIntro .about-sub-title ',
 			]
         );
@@ -376,8 +376,8 @@ class About_Intro_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
 				],
 				'default' => '#1714e0',
 				'separator' => 'after',
@@ -412,8 +412,8 @@ class About_Intro_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#000',
 				'selectors' => [
@@ -428,7 +428,7 @@ class About_Intro_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'about_intro_title_typography',
 				'label' => __( 'Typography', 'atl-extension' ),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .aboutIntro .address p',
 			]
         );

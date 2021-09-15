@@ -182,8 +182,8 @@ class Bannar_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#fff',
 				'selectors' => [
@@ -198,7 +198,7 @@ class Bannar_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'subtitle_typography',
 				'label' => __( 'Typography', 'atl-extension' ),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}}  #home .display-2--start',
 			]
         );
@@ -220,8 +220,8 @@ class Bannar_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#fff',
 				'selectors' => [
@@ -236,7 +236,7 @@ class Bannar_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'title_typography',
 				'label' => __( 'Typography', 'atl-extension' ),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}}  #home  .display-2--intro',
 			]
         );
@@ -258,8 +258,8 @@ class Bannar_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#fff',
 				'selectors' => [
@@ -274,7 +274,7 @@ class Bannar_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'desc_typography',
 				'label' => __( 'Typography', 'atl-extension' ),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}}  #home  display-2--description',
 			]
         );
@@ -308,8 +308,8 @@ class Bannar_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#fff',
 				'selectors' => [
@@ -325,8 +325,8 @@ class Bannar_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Background Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => 'tomato',
 				'selectors' => [
@@ -341,7 +341,7 @@ class Bannar_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'btn1_typography',
 				'label' => __( 'Typography', 'atl-extension' ),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}}  #home .box-btn',
 			]
         );
@@ -390,8 +390,8 @@ class Bannar_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#fff',
 				'selectors' => [
@@ -407,8 +407,8 @@ class Bannar_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Background Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#fff',
 				'selectors' => [

@@ -203,8 +203,8 @@ class Features_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Background Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#f8f9fa',
 				'selectors' => [
@@ -230,8 +230,8 @@ class Features_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#777',
 				'selectors' => [
@@ -246,7 +246,7 @@ class Features_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'feature_subtitl_typography',
 				'label' => __( 'Typography', 'atl-extension' ),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .single-feature h6',
 			]
         );
@@ -268,8 +268,8 @@ class Features_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => 'tomato',
 				'selectors' => [
@@ -284,7 +284,7 @@ class Features_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'title_typography',
 				'label' => __( 'Typography', 'atl-extension' ),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .single-feature h4',
 			]
         );
@@ -296,8 +296,8 @@ class Features_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Separator Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => 'tomato',
 				'selectors' => [
@@ -323,8 +323,8 @@ class Features_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Icon Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#333',
 				'selectors' => [
@@ -374,8 +374,8 @@ class Features_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Title Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#333',
 				'selectors' => [
@@ -390,7 +390,7 @@ class Features_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'feature_title_typography',
 				'label' => __( 'Typography', 'atl-extension' ),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .feature-box h5',
 			]
         );
@@ -412,8 +412,8 @@ class Features_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Description Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#333',
 				'selectors' => [
@@ -428,7 +428,7 @@ class Features_Widget extends \Elementor\Widget_Base {
 			[
 				'name' => 'feature_desc_typography',
 				'label' => __( 'Typography', 'atl-extension' ),
-				'scheme' => \Elementor\Scheme_Typography::TYPOGRAPHY_1,
+				'scheme' => \Elementor\Core\Schemes\Typography::TYPOGRAPHY_1,
 				'selector' => '{{WRAPPER}} .single-feature p',
 			]
         );
@@ -450,8 +450,8 @@ class Features_Widget extends \Elementor\Widget_Base {
 				'label' => __( 'Background Color', 'atl-extension' ),
 				'type' => \Elementor\Controls_Manager::COLOR,
 				'scheme' => [
-					'type' => \Elementor\Scheme_Color::get_type(),
-					'value' => \Elementor\Scheme_Color::COLOR_1,
+					'type' => \Elementor\Core\Schemes\Color::get_type(),
+					'value' => \Elementor\Core\Schemes\Color::COLOR_1,
                 ],
                 'default' => '#333',
 				'selectors' => [
