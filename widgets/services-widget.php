@@ -371,7 +371,7 @@ class Services_Widget extends \Elementor\Widget_Base {
 							if ( $settings['services_list'] ) {
 								foreach (  $settings['services_list'] as $key=> $item ) {
 								$link=$item['feature_link']['url']?  $item['feature_link']['url'] : '#';
-								$target;
+								$target='';
 								if($item['feature_target'] == 'yes'){
 									$target='_blank';
 								}else if ($item['feature_target'] == 'off'){
