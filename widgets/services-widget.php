@@ -255,15 +255,7 @@ class Services_Widget extends \Elementor\Widget_Base {
 
 	
 
-        // Subtitle Options
-		$this->add_control(
-			'service_title_heading',
-			[
-				'label' => __( 'Title', 'atl-extension' ),
-				'type' => \Elementor\Controls_Manager::HEADING,
-			]
-		);
-
+  
      
         
         // Title Options
