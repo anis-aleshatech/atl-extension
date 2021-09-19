@@ -38,6 +38,7 @@ class rainyforestSocialIcons_Widget extends WP_Widget {
             "facebook",
             "twitter",
             "github",
+            "linkedin",
             "pinterest",
             "instagram",
             "google-plus",
@@ -88,6 +89,7 @@ class rainyforestSocialIcons_Widget extends WP_Widget {
         $instance['facebook']    = strip_tags( $new_instance['facebook'] );
         $instance['twitter']     = strip_tags( $new_instance['twitter'] );
         $instance['github']      = strip_tags( $new_instance['github'] );
+        $instance['linkedin']   = strip_tags( $new_instance['linkedin'] );
         $instance['pinterest']   = strip_tags( $new_instance['pinterest'] );
         $instance['instagram']   = strip_tags( $new_instance['instagram'] );
         $instance['google-plus'] = strip_tags( $new_instance['google-plus'] );
@@ -121,6 +123,7 @@ class rainyforestSocialIcons_Widget extends WP_Widget {
             "facebook",
             "twitter",
             "github",
+            "linkedin",
             "pinterest",
             "instagram",
             "google-plus",
